@@ -20,6 +20,14 @@ docker run -v /home/user/symfony2:/var/www -p 8080:80 -d lepiaf/docker-symfony2
 
 The Symfony app is now accessible on http://localhost:8080/app.php
 
+If you want to debug your application you can set the DEBUG environment variable:
+
+```bash
+docker run -e DEBUG=1 -v /home/user/symfony2:/var/www -p 8080:80 -p 2222:22 -d lepiaf/docker-symfony2
+```
+
+The PHP debugger will then auto-connect to port 9000 of the host that sent the request if remote debugging was indicated (e.g. with 'Xdebug helper').
+
 ## Build your own image
 
 ```bash
