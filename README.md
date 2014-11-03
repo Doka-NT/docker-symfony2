@@ -15,7 +15,7 @@ docker pull lepiaf/docker-symfony2
 Then
 
 ```bash
-docker run -v /home/user/symfony2:/var/www -p 8080:80 -p 2222:22 -d lepiaf/docker-symfony2
+docker run -v /home/user/symfony2:/var/www -p 8080:80 -d lepiaf/docker-symfony2
 ```
 
 The Symfony app is now accessible on http://localhost:8080/app.php
