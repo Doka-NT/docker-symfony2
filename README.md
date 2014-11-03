@@ -31,7 +31,7 @@ docker build docker-symfony2
 ```
 
 ```bash
-docker run -v /home/user/symfony2:/var/www -p 8080:80 -p 2222:22 -d lepiaf/docker-symfony2
+docker run -v /home/user/symfony2:/var/www -p 8080:80 -d lepiaf/docker-symfony2
 ```
 
 ## Package included
