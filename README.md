@@ -44,7 +44,7 @@ If you need a PHP extension not included in this image or you want to use a diff
 
 ```bash
 # declare that you're extending this image
-FROM lepiaf/symfony2:latest
+FROM lepiaf/docker-symfony2:latest
 
 # who are you?
 MAINTAINER Tim-Christian Mundt <dev@tim-erwin.de>
