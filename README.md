@@ -2,7 +2,7 @@
 
 Docker image for symfony2 applications.
 
-Based on Debian Wheezy.
+Based on Debian Jessie.
 
 ## How to use (pre-build image)
 

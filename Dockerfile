@@ -1,4 +1,4 @@
-FROM debian:wheezy
+FROM debian:jessie
 
 MAINTAINER Thierry Piaf <thierry@piaf.eu>
 
