@@ -5,9 +5,10 @@ if [ $DEBUG ]; then
     echo "xdebug.remote_enable=On" >> /etc/php5/fpm/conf.d/20-xdebug.ini
 fi
 
+cd /var/www
+
 if [ -z "$1" ];
     then
-    cd /var/www
     composer install
     rm -rf app/cache/*
     php app/console assets:install --symlink web/
